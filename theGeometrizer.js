@@ -1,9 +1,9 @@
 (function() {
 	var radius = 3;
-	var pi = 3.1416;
+	var pi = 3.1416; // Math.PI
 
 	var circumference = (2 * pi * radius);
-	var area = (pi * Math.pow(radius, 2)); 
+	var area = (pi * Math.pow(radius, 2)); // radius * radius 
 
 	console.log('The circumference is ', circumference);
 	console.log('The area is ', area);
